@@ -1,5 +1,4 @@
 import { useState } from "react"
-import isStrong from "../utils/isStrong";
 import WordDescription from './WordDescription';
 
 function QwertyInput(): JSX.Element {
