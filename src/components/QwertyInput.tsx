@@ -1,4 +1,5 @@
 import { useState } from "react"
+import isStrong from "../utils/isStrong";
 import WordDescription from './WordDescription';
 
 function QwertyInput(): JSX.Element {
@@ -27,6 +28,7 @@ function QwertyInput(): JSX.Element {
 
     // onClick needs a single funciton to call which is why addLetter needs to be wrapped into a function
       <button onClick={() => addLetter('Q')}>Q</button>
+      <button onClick={() => addLetter('q')}>q</button>
       <button onClick={() => addLetter('W')}>W</button>
       <button onClick={() => addLetter('E')}>E</button>
       <button onClick={() => addLetter('R')}>R</button>
