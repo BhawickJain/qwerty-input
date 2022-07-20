@@ -24,7 +24,7 @@ function QwertyInput(): JSX.Element {
     <>
       <input
         value={text}
-        onChange={(e => setText(e.target.value))}
+        onChange={(e) => setText(e.target.value)}
       />
 
     // onClick needs a single funciton to call which is why addLetter needs to be wrapped into a function
